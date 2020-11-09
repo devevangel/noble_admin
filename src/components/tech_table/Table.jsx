@@ -18,7 +18,7 @@ const Table = () => {
   const getTechStack = () => {
     axios({
       method: "GET",
-      url: `http://localhost:3002/api/v1/techStack`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/techStack`,
       headers: {
         Accept: "*/*",
       },

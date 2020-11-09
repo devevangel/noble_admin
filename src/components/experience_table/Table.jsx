@@ -18,7 +18,7 @@ const Table = () => {
   const getExperience = () => {
     axios({
       method: "GET",
-      url: `http://localhost:3002/api/v1/experience`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/experience`,
     })
       .then((res) => {
         if (res.data.status === "success") {

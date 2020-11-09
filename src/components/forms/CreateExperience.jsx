@@ -29,7 +29,7 @@ const CreateExperience = () => {
     e.preventDefault();
     axios({
       method: "POST",
-      url: `http://localhost:3002/api/v1/experience`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/experience`,
       data: {
         jobTitle,
         company,

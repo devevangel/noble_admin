@@ -20,7 +20,7 @@ const CreateStack = () => {
     e.preventDefault();
     axios({
       method: "POST",
-      url: `http://localhost:3002/api/v1/techStack`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/techStack`,
       data: {
         name,
         percentage,

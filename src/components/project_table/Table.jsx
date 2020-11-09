@@ -18,7 +18,7 @@ const Table = () => {
   const getProjects = () => {
     axios({
       method: "GET",
-      url: `http://localhost:3002/api/v1/projects`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/projects`,
     })
       .then((res) => {
         if (res.data.status === "success") {

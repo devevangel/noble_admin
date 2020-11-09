@@ -20,7 +20,7 @@ const EditProject = ({ location }) => {
     e.preventDefault();
     axios({
       method: "PATCH",
-      url: `http://localhost:3002/api/v1/projects/${id}`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/projects/${id}`,
       data: {
         name,
         link,
