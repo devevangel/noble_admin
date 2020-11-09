@@ -1,0 +1,13 @@
+#root > div > nav {
+  background-color: #00796b !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navbar10 > ul > li > a {
+  color: #f3f3f3;
+}
+
+#navbar10 > ul > li > a:hover {
+  color: #d3c5c5;
+}
