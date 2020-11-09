@@ -6,7 +6,7 @@ const Item = ({ num, id, stack, skillPercent, lastWeek, lastMonth }) => {
   const handleDeleteItem = (id) => {
     axios({
       method: "Delete",
-      url: `http://localhost:3002/api/v1/techStack/${id}`,
+      url: `https://lit-cove-89381.herokuapp.com/api/v1/techStack/${id}`,
     })
       .then((res) => {
         if (res.data === "") {
