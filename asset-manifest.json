@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/noble_admin/static/css/main.a0855607.chunk.css",
-    "main.js": "/noble_admin/static/js/main.3fc0bab0.chunk.js",
-    "main.js.map": "/noble_admin/static/js/main.3fc0bab0.chunk.js.map",
+    "main.js": "/noble_admin/static/js/main.bfdbcd54.chunk.js",
+    "main.js.map": "/noble_admin/static/js/main.bfdbcd54.chunk.js.map",
     "runtime-main.js": "/noble_admin/static/js/runtime-main.d6c6b8bc.js",
     "runtime-main.js.map": "/noble_admin/static/js/runtime-main.d6c6b8bc.js.map",
     "static/js/2.7fe2b5aa.chunk.js": "/noble_admin/static/js/2.7fe2b5aa.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d6c6b8bc.js",
     "static/js/2.7fe2b5aa.chunk.js",
     "static/css/main.a0855607.chunk.css",
-    "static/js/main.3fc0bab0.chunk.js"
+    "static/js/main.bfdbcd54.chunk.js"
   ]
 }
